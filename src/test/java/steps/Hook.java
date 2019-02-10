@@ -22,9 +22,9 @@ public class Hook extends BaseUtil{
     public void InitializeTest(Scenario scenario) {
 
         if(base.features == null){
-            System.out.println("Features were null");
+            System.out.println("Features was null");
         }
-        
+
         scenarioDef = base.features.createNode(scenario.getName());
 
         System.out.println("Opening the browser : Chrome");
